@@ -222,7 +222,7 @@ const numArrays = [
 	[45, 66],
 	[7, 81, 90]
 ];
-let numList = numArrays[numArrays.length-1];
+const numList = numArrays[numArrays.length-1];
 
 console.log('Exercise 13 Result:', numList);
 
@@ -237,7 +237,7 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
-let num = numArrays[2][1];
+const num = numArrays[2][1];
 
 console.log('Exercise 14 result:', num);
 
